@@ -1,0 +1,28 @@
+#spring.application.name=Assignment_one
+#server.port=8081
+#
+#spring.data.mongodb.uri = mongodb://localhost:27017/
+#spring.data.mongodb.host=localhost
+#spring.data.mongodb.port=27017
+#spring.data.mongodb.database=mydb
+#spring.jpa.hibernate.ddl-auto=create
+#spring.jpa.show-sql=true
+#  mongodb+srv://arifshakil28:nobin922@@cluster0.vlsqlsy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+#arifshakil28
+#nobin922@
+server:
+  port: 8081
+spring:
+  application:
+    name: Assignment_one
+  data:
+    mongodb:
+      database: mydb
+      host: localhost
+      port: 27017
+  jpa:
+    hibernate:
+      ddl-auto: create
+      show-sql: true
+
+
